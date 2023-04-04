@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="/CSS/Homepage.css">
+</head>
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+             <img src="/Assets/Pictures/employee-logo1.png" width="13%">
+             <div>
+                 <span class="emp-text">Employee</span><br>
+                 <span class="emp-text emp-payroll">Payroll</span>
+             </div>
+        </div>
+     </header>
+     <div class="main-Content">
+       <div class="header-content">
+         <div class="emp-detail-text">
+          Employee Details 
+         </div>
+     <a href="/HTML/EmplyoeePayrollPage.html" class="add-button">Add user</a>
+     </div>
+     </div>
+
+     <table id="display" class="table">
+       <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Department</th>
+        <th>salary</th>
+        <th>Start Date</th>
+        <th>Actions</th>
+       </tr>
+       <tr>
+        <td><img src="/Assets/Pictures/Female.png" class="profile"></td>
+        <td>Rita</td>
+        <td>Female</td>
+        <td>
+            <div class="dept-label">HR</div>
+            <div class="dept-label">Finance</div>
+        </td>
+        <td>300000</td>
+        <td>1Nov2012</td>
+        <td>
+            <button id="1" onclick="remove(this)">Delete</button>
+            <button id="1" onclick="edit(this)">Edit</button>
+        </td>
+       </tr>
+     </table>
+</body>
+</html>
